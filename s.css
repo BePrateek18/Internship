@@ -1,0 +1,151 @@
+@import 'u.css';
+:root{
+    --black:#000000;
+    --blue:#34e5eb;
+    --brown:#433831;
+    --gray:#737373;
+    --white:#ffffff;
+}
+  
+body{
+    font-family: 'Roboto',sans-serif;  
+}  
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing-antialiased;
+}
+
+header{
+    background: var(--black);
+
+}
+
+.container{ 
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color:var(--white);
+    text-decoration: none;
+    margin-right: 3rem;
+    text-transform: uppercase;
+}
+header nav .left a:hover{
+    color: var(--blue);
+}
+header nav {
+    padding: 2rem;
+}
+.me image{
+    width: 200px;
+}
+.me .right{
+    color: var(--white);
+}
+.me .right h2{
+    font-size: 2rem;
+    color: var(--blue);
+    margin-bottom: 1rem;
+}
+.me .right h1{
+    font-size: 4rem;
+    color: var(--white);
+
+}
+.me .right h3{
+    font-size: 1rem;
+}
+.me .right h4{
+    font-size: 1rem;
+}
+.me .right h5{
+    font-size: 1rem;
+}
+.me .right h5{
+    font-size: 1rem;
+}
+.me .right h6{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: var(--blue);
+}
+.me .right h5{
+    margin-bottom: 1.5rem;
+} 
+section{
+    padding: 8rem 0;
+}
+section.who .who-dia-img{
+    height: 450px;
+}
+section.who h1{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    color: var(--white);
+}
+section.who h2 span{
+    color: var(--blue);
+}
+section.who h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: var(--white);
+}
+section.who h3{
+    font-size: 1.5rem;
+    color: var(--white);
+}
+section.who h4{
+    font-size: 1.5rem;
+    color: var(--white);
+}
+section.who h5{
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.section-heading{
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 0.5rem;         
+}
+section.acv h1 span{
+    color: var(--blue);
+}
+body{
+    background: var(--black);
+}
+section.acv .slider .slide{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+section.acv .slider .slide img{
+    width: 200px;
+    height: 400px;
+}
+.section-heading{
+    color: var(--white);
+}
+section.abm h1 span{
+    color: var(--blue);
+}
+section.abm p{
+    color: var(--white);
+}
+section.acv .slider-color .dots{
+    list-style-type: none;
+    justify-content: center;
+}
+.cv img{
+    width: 500px;
+}
